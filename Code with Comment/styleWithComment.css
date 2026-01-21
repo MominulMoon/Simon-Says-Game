@@ -1,0 +1,59 @@
+/* General body styling */
+body {
+  text-align: center; /* Center align all text */
+  background-color: #031529; /* Dark navy blue background */
+}
+
+/* Title (Level text at the top) */
+#level-title {
+  font-family: "Press Start 2P", cursive; /* Retro-style pixel font */
+  font-size: 3rem; /* Big bold title */
+  margin: 5%; /* Add space around title */
+  color: #fef2bf; /* Light yellow color */
+}
+
+/* Main container for buttons */
+.container {
+  display: block;
+  width: 50%; /* Half screen width */
+  margin: auto; /* Center the container horizontally */
+}
+
+/* Common button styling */
+.btn {
+  margin: 25px; /* Space between buttons */
+  display: inline-block; /* Display side by side */
+  height: 200px; /* Button height */
+  width: 200px; /* Button width */
+  border: 10px solid black; /* Thick black border */
+  border-radius: 20%; /* Rounded corners */
+}
+
+/* Effect shown when game is over */
+.game-over {
+  background-color: red; /* Background flashes red */
+  opacity: 0.8; /* Slight transparency */
+}
+
+/* Specific button colors */
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+/* Effect when button is pressed */
+.pressed {
+  box-shadow: 0 0 20px white; /* White glowing effect */
+  background-color: grey; /* Temporary grey overlay */
+}

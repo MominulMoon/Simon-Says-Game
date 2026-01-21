@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon-Game</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styleWithComment.css" />
+
+    <!-- Import retro-style Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Game title, changes dynamically with levels -->
+    <h1 id="level-title">Press A Key to Start</h1>
+
+    <!-- Container for all game buttons -->
+    <div class="container">
+      
+      <!-- First row: Green and Red buttons -->
+      <div class="row">
+        <!-- Green button -->
+        <div type="button" id="green" class="btn green"></div>
+
+        <!-- Red button -->
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+
+      <!-- Second row: Yellow and Blue buttons -->
+      <div class="row">
+        <!-- Yellow button -->
+        <div type="button" id="yellow" class="btn yellow"></div>
+
+        <!-- Blue button -->
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+
+    <!-- jQuery library (needed for game logic) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <!-- External JavaScript file for game logic -->
+    <script src="scriptWithComment.js"></script>
+  </body>
+</html>
