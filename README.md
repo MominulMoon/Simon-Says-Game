@@ -38,4 +38,43 @@ Test your memory by repeating the color pattern shown by the game. Each level in
 - **JavaScript (ES6)** – Game logic  
 - **jQuery** – DOM manipulation and effects  
 
+## ▶️ How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/simon-says-game.git
+2. Open the project folder:
+  ```bash
+     cd simon-says-game.git
+```
+4. Open index.html in your browser.
+(No server required)
+
+## 🧩 Core Logic (Brief)
+
+- `gamePatterns[]` stores the game-generated sequence  
+- `userClickedPattern[]` stores user input  
+- `nextSequence()` adds a new color each level  
+- `checkAnswer()` validates user input  
+- Game resets automatically on wrong input  
+
+---
+
+## 👨‍💻 Author
+
+**MD. Moon Babu**  
+CSE Student,RUET | Frontend Learner  
+🔗 GitHub: https://github.com/MominulMoon  
+
+---
+
+## ⭐ Acknowledgements
+
+- Inspired by the classic **Simon Says** game  
+- Fonts from **Google Fonts**  
+- Sounds used for educational purposes  
+
+---
+
+⭐ If you like this project, don’t forget to **star the repository**!
 
