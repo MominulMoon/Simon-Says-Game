@@ -38,5 +38,4 @@ Test your memory by repeating the color pattern shown by the game. Each level in
 - **JavaScript (ES6)** – Game logic  
 - **jQuery** – DOM manipulation and effects  
 
-## 📁 Project Structure
 
