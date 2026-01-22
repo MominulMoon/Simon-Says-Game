@@ -5,11 +5,6 @@ Test your memory by repeating the color pattern shown by the game. Each level in
 
 ---
 
-## 🚀 Live Demo
-👉 _Add your GitHub Pages / Netlify link here_
-
----
-
 ## 🧠 How the Game Works
 
 1. Press **any key** to start the game.
@@ -77,4 +72,5 @@ CSE Student,RUET | Frontend Learner
 ---
 
 ⭐ If you like this project, don’t forget to **star the repository**!
+
 
